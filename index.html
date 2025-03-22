@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="mainhd">Calculator</h1>
+    <div class="parent">
+        <div id="cal-body">
+            <div class="input">
+                <input id="result" type="text">
+            </div>
+            <div style="padding-top: 40px;">
+
+                <div>
+                    <button class="clearBtn" onclick="clearBtn()">C</button>
+                </div>
+                <div class="buttons">
+                    <button onclick="inpVal('1')">1</button>
+                    <button onclick="inpVal('2')">2</button>
+                    <button onclick="inpVal('3')">3</button>
+                    <button onclick="inpVal('+')">+</button>
+                </div>
+                <div class="buttons">
+                    <button onclick="inpVal('4')">4</button>
+                    <button onclick="inpVal('5')">5</button>
+                    <button onclick="inpVal('6')">6</button>
+                    <button onclick="inpVal('-')">-</button>
+                </div>
+                <div class="buttons">
+                    <button onclick="inpVal('7')">7</button>
+                    <button onclick="inpVal('8')">8</button>
+                    <button onclick="inpVal('9')">9</button>
+                    <button onclick="inpVal('*')">X</button>
+                </div>
+                <div class="buttons">
+                    <button onclick="inpVal('.')">.</button>
+                    <button onclick="inpVal('0')">0</button>
+                    <button onclick="getResult()" style="width: 140px;">=</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
